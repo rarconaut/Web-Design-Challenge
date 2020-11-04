@@ -41,17 +41,50 @@
                         Plots <span class="sr-only">(current)
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Plot 1</a>
-                        <a class="dropdown-item" href="#">Plot 2</a>
-                        <a class="dropdown-item active" href="#">Plot 3</a>
-                        <a class="dropdown-item" href="#">Plot 4</a>
+                        <a class="dropdown-item" href="#">Plot 1 Temp</a>
+                        <a class="dropdown-item" href="#">Plot 2 Humidity</a>
+                        <a class="dropdown-item active" href="#">Plot 3 Clouds</a>
+                        <a class="dropdown-item" href="#">Plot 4 Wind</a>
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!-- Main -->
+    <div class="row justify-content-center">
+        <!-- Main -->
+        <main class="main col-sm col-md-6" role="main">
+
+            <h1 id="containers"><span class="bd-content-title">Cloudiness<a class="anchorjs-link " aria-label="Anchor"
+                        data-anchorjs-icon="#" href="#containers" style="padding-left: 0.375em;"></a></span></h1>
+
+            <figure>
+                <img src="visualizations/Fig3.png" alt="Plot 3 Clouds">
+                <figcaption>Lorem ipsum</figcaption>
+            </figure>
+
+
+        </main>
+
+        <!-- Sidebar -->
+        <div class="sidebar col-sm col-md-4" id="visualizations">
+            <h3>Visualizations</h3>
+            <div class="row">
+                <div class="visuals col-sm">
+                    <a href="#"><img src="visualizations/Fig1.png" alt="Plot 1 Temp" style="width:50%;height:auto;"></a>
+                    <a href="#"><img src="visualizations/Fig2.png" alt="Plot 2 Humidity"
+                            style="width:50%;height:auto;"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="visuals col-sm">
+                    <a href="#"><img src="visualizations/Fig3.png" alt="Plot 3 Clouds"
+                            style="width:50%;height:auto;"></a>
+                    <a href="#"><img src="visualizations/Fig4.png" alt="Plot 4 Wind" style="width:50%;height:auto;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
