@@ -62,7 +62,21 @@
           system</strong>. Containers are used to contain, pad, and (sometimes) center the content within them. While
         containers <em>can</em> be nested, most layouts do not require a nested container.</p>
 
-      <p>Bootstrap comes with three different containers:</p>
+      <p>WeatherPy uses the library cityp and the OpenWeatherMap API to analyze the weather of more than 500 cities
+        globally at varying latitudes from the equator; and, to create a representative model of world cities' weather.
+        It creates a series of scatter plots to explore the following relationships:</p>
+      <ul>
+        <li>Temperature (*C) vs. Latitude</li>
+        <li>Humidity (%) vs. Latitude</li>
+        <li>Cloudiness (%) vs. Latitude</li>
+        <li>Wind Speed (m/sec) vs. Latitude</li>
+      </ul>
+
+      <p>Some unique attributes of the WeatherPy notebook are:</p>
+      It randomly select at least 500 cities based on latitude and longitude. It performs successive
+      API calls to check the day's weather for each of the cities. It includes a print log of each city as it's
+      being processed with the city number and city name. And, it saves a CSV of all retrieved data and a PNG image
+      for each scatter plot.
 
       <img src="visualizations/Fig1.png" alt="Plot 1 Clouds">
 
