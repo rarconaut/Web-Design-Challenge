@@ -2,6 +2,11 @@
     background: #757575;
 }
 
+.navbar-brand {
+    background-color: teal;
+    color: #f8f9fa;
+}
+
 .main {
     background-color: rgb(236, 235, 235);
     float: left;
