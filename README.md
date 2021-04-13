@@ -38,7 +38,7 @@ At the top of every page, the website has a navigation menu that:
 <li>Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page. </li>
 <li>Is responsive (using media queries). </li></ul>
 
-Finally, the website is deployed to GitHub pages:
+Finally, the website is deployed to GitHub pages! Explore the dashboard here:
 https://rarconaut.github.io/WebVisualizations/Dashboard
 
 
