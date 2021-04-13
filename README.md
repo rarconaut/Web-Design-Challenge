@@ -29,6 +29,8 @@ A "Data" page that:
 <ul><li>Displays a responsive bootstrap table component containing the data used in the visualizations. </li>
 <li>The data was exported as HTML from the original .csv file using Pandas. </li></ul>
 
+![image](https://user-images.githubusercontent.com/68246130/114632802-443e3900-9c74-11eb-9205-685a6c8816e3.png)
+
 
 At the top of every page, the website has a navigation menu that:
 <ul><li>Has the name of the site on the left of the navbar which allows users to return to the landing page from any page. </li>
